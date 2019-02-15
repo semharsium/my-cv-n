@@ -1,0 +1,15 @@
+{
+  "generator-nitro": {
+    "promptValues": {
+      "templateEngine": "hbs",
+      "clientTpl": false,
+      "exampleCode": true,
+      "exporter": true
+    },
+    "name": "my-cv-nitro",
+    "templateEngine": "hbs",
+    "clientTemplates": false,
+    "exampleCode": true,
+    "exporter": true
+  }
+}
