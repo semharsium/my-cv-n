@@ -1,0 +1,27 @@
+.m-navigation {
+	display: flex;
+	border: 1px solid black;
+	height: 100px;
+	background: pink;
+
+	&__left-side, &__right-side {
+		border: 1px solid green;
+		flex-basis: 50%;
+		height: 100%
+	}
+
+	&__right-side {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__logo-container {
+		height: 100%;
+	}
+
+	&__menu-item {
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+}
