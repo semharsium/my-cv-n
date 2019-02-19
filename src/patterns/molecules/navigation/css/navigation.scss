@@ -1,5 +1,5 @@
 .m-navigation {
-	background: pink;
+	background: black;
 
 	&__left-side, &__right-side {
 		height: 100%
@@ -12,6 +12,12 @@
 	}
 	&__menu{
 		width: 100%;
+		&-item{
+			color: white;
+    		text-decoration: none;
+    		font-family: "Roboto Mono", monospace;
+    		font-size: 20px;
+		}
 	}
 
 	
