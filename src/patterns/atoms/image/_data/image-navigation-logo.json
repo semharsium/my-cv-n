@@ -1,3 +1,4 @@
 {
-	"src": "images/navigation-logo-image/information-icon.png"
+	"src": "images/navigation-logo-image/information-icon.png",
+	"modifier": "logo-width"
 }
