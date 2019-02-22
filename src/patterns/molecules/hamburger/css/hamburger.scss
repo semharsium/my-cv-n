@@ -1,0 +1,25 @@
+@import '../../../../shared/utils/grid/css/grid.scss';
+
+.m-hamburger {
+    display: flex;
+	justify-content: center;
+	width: 50px;
+	color: #ffc900;
+	font-size: 30px;
+
+	&:hover {
+		cursor: pointer;
+	}
+
+    @include media-breakpoint-up(md) {
+        display: none;
+	}
+	
+	&__hamburger-menu, &__cross-menu{
+        display: none;
+	}
+
+    &--menu-item-active {
+        display: block;
+    }
+}
