@@ -14,8 +14,14 @@ import $ from 'jquery';
 
 T.Module.Button = T.createModule({
 	start(resolve) {
-		const $ctx = $(this._ctx);
+		const $context = $(this._ctx);
+		this.consoleMyName();
 
 		resolve();
 	},
+
+	consoleMyName() {
+		console.log("my name is smehar");
+	}
 });
+
