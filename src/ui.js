@@ -12,9 +12,16 @@ import './shared/base/document/css/document.scss';
 import './shared/base/webfonts/css/webfont-gaegu.scss';
 import './shared/base/webfonts/css/webfont-playfair-display.scss';
 
+// This because we need styles on views
+import './views/css/aboutme.scss';
+import './views/css/projects.scss';
+import './views/css/index.scss';
+
 import './patterns/molecules/navigation';
+import './patterns/molecules/hamburger';
 import './patterns/atoms/heading';
 import './patterns/atoms/image';
+import './patterns/atoms/button';
 
 
 hot(module);
