@@ -1,13 +1,8 @@
-.a-button{
-    &--navigation-cross{
-        background: none;
-        position: absolute;
-        top: 13px;
-        right: 16px;
-        color: #ffc900;
-        border: 0;
-        font-size: 1.4em;
-        font-weight: bold;
-        cursor: pointer;
-    }
+.a-button--navigation-cross {
+   background: none;
+   color: #ffc900;
+   border: 0;
+   font-size: 3.4em;
+   font-weight: bold;
+   cursor: pointer;
 }
