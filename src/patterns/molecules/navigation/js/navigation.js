@@ -1,4 +1,3 @@
-import "../../hamburger/js/hamburger";
 'use strict';
 
 import * as T from 'terrific';
@@ -28,7 +27,7 @@ T.Module.Navigation = T.createModule({
 	},
 
 	registerHandlers() {
-		this.$ctx.on("click", this.handleMenuItem.bind(this));
+		this._events.on("navigation.open.menu", this.handleMenuItem.bind(this));
 	},
 
 	handleMenuItem() {
