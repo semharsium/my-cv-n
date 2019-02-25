@@ -20,10 +20,11 @@ T.Module.Hamburger = T.createModule({
 		hamburgerMenuItemActive: "m-hamburger--menu-item-active"
 	},
 	start(resolve) {
-		this.$ctx = $(this._ctx);
+		this.$ctx = $(this._ctx);//data-t-name="Hamburger
 		this.$hamburgerItems = this.$ctx.find(this.selectors.hamburgerMenuItem);
 		this.registerHandlers();
 		resolve();
+		//slick();
 	},
 
 	registerHandlers() {
@@ -32,5 +33,6 @@ T.Module.Hamburger = T.createModule({
 
 	handleMenuItem() {
 		this.$hamburgerItems.toggleClass(this.stateClasses.hamburgerMenuItemActive);
+		this._events.emit("navigation.open.menu");
 	}
 });
