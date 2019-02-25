@@ -9,7 +9,7 @@ import $ from 'jquery';
  * @author <%= user.name %> <<%= user.email %>>
  */
 
-T.Module.<%= pattern.js %>.<%= decorator.js %> = T.createDecorator({
+T.Module.<%= pattern.js %>.<%= decorator.js %>= T.createDecorator({
 	start(resolve) {
 		const $ctx = $(this._ctx);
 
