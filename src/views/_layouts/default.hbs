@@ -4,7 +4,14 @@
 		{{> head}}
 	</head>
 	<body>
-		{{{body}}}
+		{{pattern name="navigation"}}
+
+		<div class="content">
+			{{{body}}}
+		</div>
+		
+		{{pattern name="footer"}}
+
 		{{> foot}}
 	</body>
 </html>
