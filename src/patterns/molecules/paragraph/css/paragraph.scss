@@ -1,3 +1,10 @@
+@import'../../../../shared/utils/colors2/css/colors2.scss';
 .m-paragraph {
-
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 19px;
+  line-height: 1.2;
+  &__about-me{
+    color: $brand-color-7;
+  }
 }
