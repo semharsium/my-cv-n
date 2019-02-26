@@ -1,47 +1,43 @@
-@import '../../../../shared/utils/colors2/css/colors2.scss';
+@import "../../../../shared/utils/colors2/css/colors2.scss";
 .m-footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: #181818;
-    color: white;
-    
-    &__contact-icons{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 50px;
-        margin-bottom: 20px;
+  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  background: #181818;
+  color: white;
+
+  &__contact-icons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+  }
+  &__socialnetwork {
+    padding-bottom: 81px;
+    padding-top: 52px;
+    font-size: 25px;
+    text-align: center;
+    color: $brand-color-7;
+    background-color: #181818;
+  }
+  &__icon {
+    & fa-facebook-f:before {
+      padding: 3px;
     }
-    &__socialnetwork{
-        padding-bottom: 81px;
-        padding-top: 52px;
-        font-size: 25px;
-        text-align: center;
-        color: $brand-color-7;
-        background-color:#181818;
-    }
+  }
+  &__paragraph {
+    padding: 20px;
+    background-color: black;
+  }
+  &-image {
     &__icon {
-        & fa-facebook-f:before{
-            padding:3px;
-        }
+      padding: 17px;
+      color: #ffc900;
+      margin: 10px;
+      text-decoration: none;
+      border: 2px solid;
+      border-radius: 100%;
     }
-    &__paragraph{
-        padding: 20px;
-        background-color: black;
-    }
-    &-image{
-        &__icon{
-            padding: 17px;
-            color: #ffc900;
-            margin: 10px;
-            text-decoration: none;
-            border: 2px solid;
-            border-radius: 100%;
-        }
-    }
-   
+  }
 }
