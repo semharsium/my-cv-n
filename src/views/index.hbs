@@ -1,14 +1,25 @@
-{{pattern name="navigation"}}
+{{pattern name="spacer"}}
+
 <div class="row">
 	<div class="col-md-4 offset-md-4">
 		{{pattern name="heading" data="heading-index"}}
 	</div>
 </div>
-{{pattern name="spacer" modifier="spacer-small"}}
+
+{{pattern name="spacer"}}
+
 <div class="row">
-	<div class="col-12">
+	<div class="col-12 col-md-6 offset-md-3">
 		{{pattern name="paragraph" data="paragraph-index"}}
-	</div> 
+	</div>
 </div>
-{{pattern name="spacer" modifier="spacer-large"}}
-{{pattern name="footer"}}
+
+{{pattern name="spacer" modifier="medium"}}
+
+<div class="row">
+	<div class="col-12 col-md-6 offset-md-3">
+		{{pattern name="heading" data="heading-skills"}}
+		{{pattern name="spacer"}}
+		{{pattern name="list-items" data="list-items-home"}}
+	</div>
+</div>
