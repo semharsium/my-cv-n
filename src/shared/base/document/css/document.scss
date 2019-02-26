@@ -1,7 +1,14 @@
+html,
 body {
-	font-family: Arial, sans-serif;
-    margin: 0;
-    padding-bottom: 6rem;
-	min-height: 100vh;
-	position: relative;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+	flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
 }
