@@ -1,18 +1,39 @@
-
-
+{{pattern name="spacer"}}
 	<div class="row">
 		<div class="col-md-4 offset-md-4">
 			{{pattern name="heading" data="heading-aboutme"}}
 		</div>
 	</div>
+	{{pattern name="spacer"}}
 	<div class="row">
-		 <div class="col-sm-6">
+		 <div class="col-12  col-sm-12 col-md-6">
 			 <div class="aboutme__image-container">
 				 {{pattern name="image" data="image-aboutme"}}
 			 </div>
+			 {{pattern name="spacer"}}
 		</div>
-		<div class="col-sm-6">
+		<div class="col-12 col-sm-12 col-md-6">
+			{{pattern name="paragraph" data="paragraph-aboutMe"}}
 		</div>
 	</div>
+	{{pattern name="spacer" modifier="medium"}}
+	<div class="row">
+	<div class="col-12 col-md-6 offset-md-3">
+		{{pattern name="heading" data="heading-activities"}}
+		{{pattern name="spacer"}}
+		{{pattern name="heading" data="heading-aboutme-professional"}}
+		{{pattern name="spacer"}}
+		{{pattern name="list-items" data="list-items-aboutMe-professional-works"}}
+		{{pattern name="spacer"}}
+		{{pattern name="heading" data="heading-aboutme-further-education"}}
+		{{pattern name="spacer"}}
+		{{pattern name="list-items" data="list-items-aboutMe-futher-education"}}
+		{{pattern name="spacer"}}
+		{{pattern name="heading"  data="heading-aboutme-education"}}
+		{{pattern name="spacer"}}
+		{{pattern name="list-items" data="list-items-aboutMe-education"}}
+	</div>
+</div>
+	{{pattern name="spacer" modifier="large"}}
 
 
