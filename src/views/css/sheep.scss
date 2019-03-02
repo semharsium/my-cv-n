@@ -1,0 +1,13 @@
+.sheep {
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+  }
+  &__heading {
+    font-size: 33px;
+    padding: 20px;
+    font-family: "Bree Serif", serif;
+  }
+}
