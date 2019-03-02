@@ -1,0 +1,13 @@
+@import "../../../../../shared/utils/grid/css/grid.scss";
+.a-image--sheep {
+  border-radius: 50%;
+  height: 240px;
+  @include media-breakpoint-up(md) {
+    height: 300px;
+  }
+  @include media-breakpoint-up(lg) {
+    height: 300px;
+  }
+}
+
+
