@@ -1,6 +1,10 @@
+@import "../../shared/utils/grid/css/grid.scss";
 .aboutme {
     &__image-container {
         height: 240px;
-		padding-left: 20px;
+        padding-left: 20px;
+        @include media-breakpoint-up(sm) {
+            text-align: center;
+          }
     }
 }
