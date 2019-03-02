@@ -1,0 +1,33 @@
+{{pattern name="spacer"}}
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 offset-md-4">
+			{{pattern name="heading" data="heading-work"}}
+		</div>
+	</div>
+	{{pattern name="spacer" modifier="medium"}}
+	<div class="container">
+		<div class="row">
+			{{#each projects}}
+			<div class="col col-sm-12 col-md-6 col-lg-4 ">
+				<div class="project__tile">
+					<div class="project__tile-image-container">
+						{{pattern name="image" data=imageData }}
+					</div>
+
+					<div class="project__tile-description">
+						<p>{{description}}</p>
+					</div>
+
+					<div class="project__tile-link-container">
+						<a href={{link}}>Project</a>
+					</div>
+					
+				</div>
+				{{pattern name="spacer" modifier="large"}}
+			</div>
+			{{/each}}
+		</div>
+	</div>
+
+	{{pattern name="spacer"}}
