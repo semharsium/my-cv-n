@@ -1,0 +1,25 @@
+{
+	"title": "Work",
+	"projects": [
+		{
+			"imageData": "image-project-sheep",
+			"description": "this was a sheep",
+			"link": "/task-sheep"
+		},
+		{
+			"imageData": "image-project-lisa",
+			"description": "this was lisa",
+			"link": "/task-lisa"
+		},
+		{
+			"imageData": "image-project-road",
+			"description": "this was a road",
+			"link": "/task-road"
+		},
+		{
+			"imageData": "image-project-calculator",
+			"description": "this was a calculator",
+			"link": "/task-calculator"
+		}
+	]
+}
