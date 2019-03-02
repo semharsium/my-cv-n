@@ -1,0 +1,11 @@
+@import "../../../../../shared/utils/grid/css/grid.scss";
+.a-image--lisa {
+  border-radius: 50%;
+  height: 300px;
+  @include media-breakpoint-up(md) {
+    height: 300px;
+  }
+  @include media-breakpoint-up(lg) {
+    height: 300px;
+  }
+}
