@@ -1,0 +1,11 @@
+@import "../../../../../shared/utils/grid/css/grid.scss";
+.a-image--road {
+  border-radius: 50%;
+  height: 185px;
+  @include media-breakpoint-up(md) {
+    height: 185px;
+  }
+  @include media-breakpoint-up(lg) {
+    height: 185px;
+  }
+}
