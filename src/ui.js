@@ -16,8 +16,9 @@ import './shared/utils/colors2/css/colors2.scss';
 
 // This because we need styles on views
 import './views/css/aboutme.scss';
-import './views/css/projects.scss';
+import './views/css/work.scss';
 import './views/css/index.scss';
+import './views/css/sheep.scss';
 
 import './patterns/molecules/navigation';
 import './patterns/molecules/hamburger';
