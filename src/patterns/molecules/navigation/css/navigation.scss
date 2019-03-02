@@ -16,25 +16,17 @@ $pattern: "m-navigation";
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+    @include media-breakpoint-up(md) {
+      padding-bottom:0 ;
+    }
   }
 
   &__menu {
     width: 100%;
-    @include media-breakpoint-up(xs) {
-      display: none;
-    }
-
-    @include media-breakpoint-up(sm) {
-      display: none;
-    }
+    display: none;
     @include media-breakpoint-up(md) {
       display: block;
     }
-
-    @include media-breakpoint-up(lg) {
-      display: block;
-    }
-
     &-item {
       color: white;
       text-decoration: none;
