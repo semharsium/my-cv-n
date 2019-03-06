@@ -4,21 +4,30 @@ import '@babel/polyfill';
 import * as T from 'terrific';
 import $ from 'jquery';
 import { hot } from '@gondel/plugin-hot';
+import 'slick-carousel';
+
+
 
 // This because we need styles on shared
 import './shared/base/security/js/security';
 import './shared/base/reset/css/reset.scss';
+import './shared/base/code-prettify/css/sunburst.scss';
 import './shared/utils/grid/css/grid.scss';
 import './shared/base/document/css/document.scss';
 import './shared/base/webfonts/css/webfont-gaegu.scss';
 import './shared/base/webfonts/css/webfont-playfair-display.scss';
 import './shared/utils/colors2/css/colors2.scss';
 
+
+
 // This because we need styles on views
 import './views/css/aboutme.scss';
 import './views/css/work.scss';
 import './views/css/index.scss';
-import './views/css/sheep.scss';
+import './views/css/project-container.scss';
+import './views/css/prettfiy.scss'
+
+
 
 import './patterns/molecules/navigation';
 import './patterns/molecules/hamburger';
