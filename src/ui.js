@@ -25,7 +25,7 @@ import './views/css/aboutme.scss';
 import './views/css/work.scss';
 import './views/css/index.scss';
 import './views/css/project-container.scss';
-import './views/css/prettfiy.scss'
+import './views/css/prettify.scss'
 
 
 
