@@ -1,15 +1,4 @@
 {
-    "text": [
-        "My name is Semhar Sium from Eritrea",
-        " Now I live in Embrach(ZH) with my kids and my husband",
-        "In my country I have completed Bachelor Degree in Accounting and I have learned coding in",
-        "<a class=\"m-paragraph__link\" href=\"http://powercoders.org/\" target=\"_blank\">powercoders</a>,",
-        "a coding academy for refugees. In my first week of my internship in Namics AG,",
-        "I did Lisa Simpson Carton with only Html and Css as my first project which every one was",
-        "intersted on her. In my free time I search in internet",
-        "for further knowlege, read books and enjoy with my familiy and friends",
-        "and love to spend time with different people from different cultures.",
-        "However, if you need even more please contact me."
-    ],
+    "text":"My name is Semhar Sium from Eritrea, Now I live in Embrach(ZH) with my kids and my husband. In my country I have completed Bachelor Degree in Accounting and I have learned coding in <a class=\"m-paragraph__link\" href=\"http://powercoders.org/\" target=\"_blank\">powercoders</a> a coding academy for refugees in Switzerland. In my first week of my internship in Namics AG, I did Lisa Simpson Carton with only Html and Css as my first project which every one was intersted on her. In my free time I search in internet for further knowlege, read books and enjoy with my familiy and friends and love to spend time with different people from different cultures. However, if you need even more please contact me.",
     "modifier": "aboutMe"
 }
