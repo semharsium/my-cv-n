@@ -5,4 +5,6 @@ import './css/modifier/list-items-aboutMe-further-education.scss';
 import './css/modifier/list-items-aboutMe-education.scss';
 import './css/modifier/list-items-work-project-one.scss';
 import './css/modifier/list-items-work-project-two.scss';
+import './css/modifier/list-items-work-project-three.scss';
+import './css/modifier/list-items-work-project-four.scss';
 import './js/list-items';
