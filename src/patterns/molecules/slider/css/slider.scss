@@ -1,0 +1,17 @@
+@import "../../../../shared/utils/grid/css/grid.scss";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.m-slider {
+  height: 0;
+  &.slick-initialized {
+    height: auto;
+  }
+  .slick-slide,
+  .slick-slide > div {
+    height: 50vw;
+    @include media-breakpoint-up(md) {
+      height: 37vw;
+    }
+  }
+}
