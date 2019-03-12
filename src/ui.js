@@ -33,6 +33,7 @@ import './patterns/molecules/navigation';
 import './patterns/molecules/hamburger';
 import './patterns/molecules/paragraph';
 import './patterns/molecules/footer';
+import './patterns/molecules/slider';
 import './patterns/atoms/heading';
 import './patterns/atoms/image';
 import './patterns/atoms/button';
