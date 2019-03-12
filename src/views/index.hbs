@@ -1,3 +1,17 @@
+<div class="row">
+	<div class="col">
+		<div class="slider-image__container">
+			{{#pattern name="slider"}}
+				{{pattern name='image' data='image-slider-one'}}
+				{{pattern name='image' data='image-slider-two'}}
+				{{pattern name='image' data='image-slider-three'}}
+				{{pattern name='image' data='image-slider-four'}}
+				{{pattern name='image' data='image-slider-five'}}
+			{{/pattern}}
+		</div>
+	</div>
+
+</div>
 {{pattern name="spacer"}}
 
 <div class="row">
@@ -14,7 +28,7 @@
 	</div>
 </div>
 
-{{pattern name="spacer" modifier="medium"}}
+{{pattern name="spacer" modifier="large"}}
 
 <div class="row">
 	<div class="col-12 col-md-6 offset-md-3">
@@ -22,5 +36,6 @@
 		{{pattern name="spacer"}}
 		{{pattern name="list-items" data="list-items-home"}}
 	</div>
+	{{pattern name="spacer" modifier="large"}}
 </div>
 {{pattern name="spacer" modifier="large"}}
