@@ -14,4 +14,26 @@
       height: 37vw;
     }
   }
+  &.m-slider {
+    .slick-prev {
+      z-index: 1;
+      left: 35px;
+    }
+    .slick-next {
+      z-index: 1;
+      right: 35px;
+    }
+    .slick-prev,
+    .slick-next {
+      &::before,
+      &:hover::before,
+      &:focus::before {
+        color: white;
+        font-size: 35px;
+      }
+    }
+  }
+}
+.slick-dots li button:before{
+  font-size: 20px;
 }
