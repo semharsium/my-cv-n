@@ -7,7 +7,6 @@ import { hot } from '@gondel/plugin-hot';
 import 'slick-carousel';
 
 
-
 // This because we need styles on shared
 import './shared/base/security/js/security';
 import './shared/base/reset/css/reset.scss';
@@ -17,8 +16,6 @@ import './shared/base/document/css/document.scss';
 import './shared/base/webfonts/css/webfont-gaegu.scss';
 import './shared/base/webfonts/css/webfont-playfair-display.scss';
 import './shared/utils/colors2/css/colors2.scss';
-
-
 
 // This because we need styles on views
 import './views/css/aboutme.scss';
