@@ -7,8 +7,13 @@ module.exports = merge.smart(webpackConfig, {
     module: {
         rules: [
             {
-                test: /\.(eot)$/,
-                loader: require.resolve('file-loader'),
+                test: /\.(eot|woff|ttf|svg)$/,
+                use: {
+                    loader: require.resolve('url-loader'),
+                    options: {
+                        name: '[name].[ext]',
+                    }
+                }
             },
         ],
     },
