@@ -74,7 +74,8 @@
     "slick-carousel": "1.8.1",
     "svg4everybody": "2.1.9",
     "terrific": "3.0.0",
-    "tota11y": "0.1.6"
+    "tota11y": "0.1.6",
+    "url-loader": "1.1.2"
   },
   "devDependencies": {
     "@namics/eslint-config": "6.1.0",
@@ -112,7 +113,7 @@
     "stylelint": "9.10.1",
     "tslint": "5.12.1",
     "tslint-config-prettier": "1.18.0",
-    "webpack": "4.29.3",
+    "webpack": "4.29.6",
     "webpack-cli": "3.2.3",
     "webpack-merge": "4.2.1",
     "yo": "2.0.5"
