@@ -12,7 +12,7 @@
 	"img-req-alt": "allownull",
 	"img-req-src": true,
 	"indent-width": false,
-	"indent-style": "nonmixed",
+	"indent-style": false,
 	"label-req-for": true,
 	"line-end-style": false,
 	"line-no-trailing-whitespace": false,
